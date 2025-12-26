@@ -1,17 +1,17 @@
 class OpentuiGit < Formula
   desc "Lazygit-style terminal UI git client built with OpenTUI, SolidJS, and Bun"
   homepage "https://github.com/crob19/opentui-git"
-  version "0.1.4"
+  version "0.1.5"
   license "MIT"
 
   on_arm do
-    url "https://github.com/crob19/opentui-git/releases/download/v0.1.4/opentui-git-v0.1.4-darwin-arm64.tar.gz"
-    sha256 "5245a6d40b8301fa3b5c96aaf91846409a845ec4759527c7f8fc74b57e73d74a"
+    url "https://github.com/crob19/opentui-git/releases/download/v0.1.5/opentui-git-v0.1.5-darwin-arm64.tar.gz"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   on_intel do
-    url "https://github.com/crob19/opentui-git/releases/download/v0.1.4/opentui-git-v0.1.4-darwin-x64.tar.gz"
-    sha256 "01f823a55041b76a02cad7825e3af50862f7dfb3207730c702d94e3de91c9fed"
+    url "https://github.com/crob19/opentui-git/releases/download/v0.1.5/opentui-git-v0.1.5-darwin-x64.tar.gz"
+    sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
   end
 
   def install
